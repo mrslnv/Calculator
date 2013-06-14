@@ -1,0 +1,23 @@
+/* app css stylesheet */
+
+div.calculator{
+    font-size: large;
+    border: #003580 double;
+    margin: 1em 1em 1em 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.calculatr h1{
+    text-align: center;
+}
+.display{
+    background: #62c462;
+    border: #080808 groove 1px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    text-align: right;
+    font-size: x-large;
+}
+.calculator li{
+    list-style: none;
+    display: inline;
+}

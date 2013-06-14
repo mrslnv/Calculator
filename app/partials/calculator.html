@@ -1,0 +1,18 @@
+<div class="calculator">
+    <h2>Calculator NG</h2>
+    <div class="display">{{mvalue}}</div>
+    <input type="text" ng-model="newVal" readonly="true"/>
+    <div class="functions"></div>
+        <ul>
+            <li ng-repeat="func in functions">
+             <button ng-click="callFunc(func)">{{func.symbol}}</button>
+            </li>
+        </ul>
+    <div class="numbers">
+        <ul>
+            <li ng-repeat="num in numbers">
+                <button ng-click="inputNum(num)">{{num}}</button>
+            </li>
+        </ul>
+    </div>
+</div>
